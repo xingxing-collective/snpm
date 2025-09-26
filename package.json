@@ -2,8 +2,9 @@
   "name": "snpm",
   "version": "0.1.0",
   "type": "module",
+  "description": "Advanced Package Manager for Node.js",
   "scripts": {
-    "dev": "jiti src/index.ts",
+    "snpm": "jiti src/cli.ts",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix"
   },
@@ -12,5 +13,8 @@
     "eslint": "^9.36.0",
     "eslint-config-unjs": "^0.5.0",
     "jiti": "^2.6.0"
+  },
+  "dependencies": {
+    "citty": "^0.1.6"
   }
 }

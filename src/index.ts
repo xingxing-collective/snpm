@@ -1,1 +1,1 @@
-console.log("Hello snpm")
+export * from './cli'
