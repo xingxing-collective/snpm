@@ -3,10 +3,14 @@
   "version": "0.1.0",
   "type": "module",
   "scripts": {
-    "dev": "jiti src/index.ts"
+    "dev": "jiti src/index.ts",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
   },
   "packageManager": "pnpm@10.17.1",
   "devDependencies": {
+    "eslint": "^9.36.0",
+    "eslint-config-unjs": "^0.5.0",
     "jiti": "^2.6.0"
   }
 }
