@@ -1,0 +1,12 @@
+{
+  "name": "snpm",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "dbaeumer.vscode-eslint"
+      ]
+    }
+  },
+  "postCreateCommand": "corepack enable",
+  "postStartCommand": "pnpm install"
+}

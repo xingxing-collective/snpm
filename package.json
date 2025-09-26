@@ -1,0 +1,12 @@
+{
+  "name": "snpm",
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "jiti src/index.ts"
+  },
+  "packageManager": "pnpm@10.17.1",
+  "devDependencies": {
+    "jiti": "^2.6.0"
+  }
+}
